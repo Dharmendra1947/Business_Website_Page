@@ -12,6 +12,22 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+/* Style for logos */
+.logo-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: auto;
+}
+
+.logo-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 50px;
+    height: auto;
+}
 
 .header {
     background-image: url('https://i.pinimg.com/originals/6f/0c/e8/6f0ce8fd012a95f6c512935850af0e14.jpg');
@@ -25,11 +41,57 @@ body {
     padding: 1rem;
 }
 
+/* for navigation bar */
+.navigation {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navigation li {
+    margin-right: 20px;
+}
+
+.navigation a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
 .container {
     max-width: 800px;
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
+}
+
+/* for image row */
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.image-row img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 
@@ -83,3 +145,4 @@ p.contact-info {
 #comment-form button:hover {
     background-color: #555;
 }
+         
