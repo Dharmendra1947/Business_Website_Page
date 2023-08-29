@@ -8,12 +8,16 @@ body {
     background-color: #87b9f6;
 }
 
+body {
+    background-image: url('https://www.teahub.io/photos/full/15-156996_background-flex-banner-design.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .header {
-    background-color: #81fb9d;
-    color: #fff;
-    text-align: center;
-    padding: 1rem;
-    background-image: url(https://img.zed.run/horses/0095B6.png);
+    background-image: url('https://i.pinimg.com/originals/6f/0c/e8/6f0ce8fd012a95f6c512935850af0e14.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container {
