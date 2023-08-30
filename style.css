@@ -81,17 +81,25 @@ body {
 .image-slideshow {
     overflow: hidden;
     position: relative;
-    margin-top: 20px;
-    width: 300px; 
-    height: 200px; 
+    margin: 20px auto;
+    width: 900px; 
+    height: 150px; 
 }
 
 .image-row {
     display: flex;
-    width: 100%;
+    width: 30%;
     animation: slide 9s infinite linear; 
+    margin: 0 auto;
 }
-
+.image-row img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    align-items: center;
+}
 @keyframes slide {
     0%, 100% {
         transform: translateX(0);
