@@ -97,8 +97,8 @@ body {
 
 /* Slideshow animation */
 .slideshow img {
-    animation: slideAnimation 12s linear infinite;
-    animation-delay: 3s;
+    animation: slideAnimation 40s linear infinite;
+    animation-delay: 10s;
     opacity: 0;
     position: absolute;
 }
