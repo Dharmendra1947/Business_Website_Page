@@ -79,70 +79,21 @@ body {
 }
 
 
-/* Style for slideshow */
-.slideshow {
-    width: 100%;
-    overflow: hidden;
-    white-space: nowrap;
-    position: relative;
+/* for image row */
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
 }
 
-.slideshow img {
-    display: inline-block;
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    vertical-align: middle;
+.image-row img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
-
-/* Slideshow animation */
-.slideshow img {
-    animation: slideAnimation 40s linear infinite;
-    animation-delay: 10s;
-    opacity: 0;
-    position: absolute;
-}
-
-@keyframes slideAnimation {
-    0% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-    20% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-    25% {
-        opacity: 0;
-        transform: translateX(100%);
-    }
-    45% {
-        opacity: 0;
-        transform: translateX(100%);
-    }
-    50% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-    70% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-    75% {
-        opacity: 0;
-        transform: translateX(-100%);
-    }
-    95% {
-        opacity: 0;
-        transform: translateX(-100%);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-
 h1, h2, h3 {
     margin-bottom: 1rem;
 }
@@ -193,4 +144,3 @@ p.contact-info {
 #comment-form button:hover {
     background-color: #555;
 }
-         
