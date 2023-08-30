@@ -1,13 +1,8 @@
-const slider = document.querySelector('.slider');
-const images = document.querySelectorAll('.slider img');
-
-let currentIndex = 0;
-
-function slideImages() {
-    currentIndex = (currentIndex + 1) % images.length;
-    const translateX = -currentIndex * 100;
-    slider.style.transform = `translateX(${translateX}%)`;
-}
-
-setInterval(slideImages, 3000); 
-// Slide every 3 seconds
+// Add this JavaScript to stop the animation during hover
+const slideshow = document.querySelector('.image-slideshow');
+slideshow.addEventListener('mouseenter', () => {
+    slideshow.style.animationPlayState = 'paused';
+});
+slideshow.addEventListener('mouseleave', () => {
+    slideshow.style.animationPlayState = 'running';
+});
