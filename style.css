@@ -166,3 +166,41 @@ p.contact-info {
 #comment-form button:hover {
     background-color: #555;
 }
+
+
+/* Add styles for the company section */
+.company {
+    display: flex;
+    margin-bottom: 20px;
+    width: 100% ;
+    border: 2px solid #ffffff; /*Border for each company section */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Add padding around each company section */
+}
+
+
+.company-info {
+    flex: 1;
+    text-align: left;
+    margin-right: 20px ;
+    
+}
+
+.company-info h2 {
+    text-align: left;
+}
+
+.company-info p {
+    text-align: left;
+}
+
+.company-image {
+    flex: 1;
+    text-align: right;
+}
+
+.company-image img {
+    max-height: 100%;
+    max-width: 80%; /* Adjust the width as needed */
+    vertical-align: middle;
+}
