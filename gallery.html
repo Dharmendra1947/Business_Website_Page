@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Gallery - Dwivedi Group of Companies</title>
+        <link rel="stylesheet" href="style.css"
+    </head>
+    <body>
+        <div class="header">
+            <h1><strong>Welcome to Dwivedi Group of Companies</strong></h1>
+            <div class="navigation">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="companies.html">Our Companies</a></li>
+                    <li><a href="vision.html">Our Vision</a></li>
+                    <li><a href="social.html">Social Services</a></li>
+                    <li><a href="jobs.html">Jobs</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <!-- Image Gallery -->
+            <h1>Image Gallery</h1>
+            <div class="image-container">
+                <div class="image-item">
+                    <img src="https://th.bing.com/th/id/R.66c36f24d654be46ea92460035e4b84e?rik=IZ2CpRxYUPB0aA&riu=http%3a%2f%2fppcorrugatedsheets.com%2fimages%2fuserFiles%2fcontents%2fheader-banner%2fcompany-profile1.jpg&ehk=iPBTDkIuRVoOjQXVigdDU8a%2fQVrbeLk%2bWy0hN3K8F6g%3d&risl=&pid=ImgRaw&r=0" alt="Image 1">
+                </div>
+                <div class="image-item">
+                    <img src="https://www.thecrazyprogrammer.com/wp-content/uploads/2016/06/Top-10-IT-Companies-in-India-2016.jpg" alt="Image 2">
+                </div>
+                <div class="image-item">
+                    <img src="https://th.bing.com/th/id/R.5e0ee0145ed8395be10752583bf605b2?rik=jZblqPuthHIJGw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2fa%2fd%2f1%2f266509.jpg&ehk=%2ft0zYgPb02XyJ4YTH6GPzZmincz0ko7AddMmrIKTUCM%3d&risl=&pid=ImgRaw&r=0" alt="Image 3">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <!-- User Authentication Form -->
+            <form action="upload.php" method="post" enctype="multipart/form-data">
+                <h2>User Authentication</h2>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br>
+    
+                <!-- File Upload Input -->
+                <h2>Upload Photo</h2>
+                <input type="file" id="photo" name="photo" accept="image/*" required><br>
+    
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>
