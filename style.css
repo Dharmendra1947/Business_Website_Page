@@ -209,3 +209,15 @@ p.contact-info {
 .slider-nav a:hover {
     opacity: 1;
 }
+.round-corner-pictures {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+.round-corner-pictures img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
