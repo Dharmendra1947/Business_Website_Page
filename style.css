@@ -129,15 +129,13 @@ p.contact-info {
     background-color: #555;
 }
 
-
-/* Add styles for the company section */
 .company {
     display: flex;
     margin-bottom: 20px;
     width: 100% ;
-    border: 2px solid #ffffff; /*Border for each company section */
+    border: 2px solid #ffffff; 
     border-radius: 10px; /* Rounded corners */
-    padding: 10px; /* Add padding around each company section */
+    padding: 10px;
 }
 
 

@@ -1,4 +1,4 @@
-// Add this JavaScript to stop the animation during hover
+// slidedhow for company.html
 const slideshow = document.querySelector('.image-slideshow');
 slideshow.addEventListener('mouseenter', () => {
     slideshow.style.animationPlayState = 'paused';
